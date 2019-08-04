@@ -7,4 +7,4 @@ Install via:
 
 then access via:
 
-`system.file(package = "CollegeScorecard")`
+`system.file("extdata", package = "CollegeScorecard")`
