@@ -7,4 +7,12 @@ Install via:
 
 then access via:
 
-`system.file("extdata", package = "CollegeScorecard")`
+```
+list.files(system.file("extdata", package = "CollegeScorecard"))
+```
+
+```
+filename <- paste(system.file("extdata", package = "CollegeScorecard"), 
+                  "MERGED2016_17_PP.csv.bz2", sep = "/")
+cs2016 <- readr::read_csv(filename)
+```
