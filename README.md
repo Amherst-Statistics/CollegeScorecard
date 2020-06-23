@@ -1,3 +1,5 @@
+![R-CMD-check](https://github.com/Amherst-Statistics/CollegeScorecard/workflows/R-CMD-check/badge.svg)
+
 # CollegeScorecard
 Data from the DOE College Scorecard 
 
