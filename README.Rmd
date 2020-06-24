@@ -1,0 +1,33 @@
+---
+output: github_document
+---
+
+![R-CMD-check](https://github.com/Amherst-Statistics/CollegeScorecard/workflows/R-CMD-check/badge.svg)
+![render-readme](https://github.com/Amherst-Statistics/CollegeScorecard/workflows/render-readme/badge.svg)
+
+
+# CollegeScorecard
+Data from the DOE College Scorecard 
+
+### Installation
+
+`devtools::install_github("Amherst-Statistics/CollegeScorecard")`
+
+### List files
+
+```{r cars}
+list.files(system.file("extdata", package = "CollegeScorecard"))
+```
+
+
+### Example from 2016
+
+```{r warning = FALSE, message = FALSE}
+filename <- paste(system.file("extdata", package = "CollegeScorecard"), 
+                  "MERGED2016_17_PP.csv.bz2", sep = "/")
+cs2016 <- readr::read_csv(filename)
+summary(cs2016$MALE_WDRAW_ORIG_YR4_RT)
+summary(readr::parse_number(cs2016$MALE_WDRAW_ORIG_YR4_RT))
+```
+
+Last updated `r date()` using data from 2018-2019.
