@@ -31,4 +31,4 @@ summary(cs2016$MALE_WDRAW_ORIG_YR4_RT)
 summary(readr::parse_number(cs2016$MALE_WDRAW_ORIG_YR4_RT))
 ```
 
-Last updated `r date()` using data from 2018-2019.
+Last updated `r date()` GMT using data from 2018-2019.
