@@ -14,7 +14,7 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
       - name: Install packages
-        run: Rscript -e 'install.packages(c("rmarkdown, "readr", "devtools"))'
+        run: Rscript -e 'install.packages(c("rmarkdown", "readr", "devtools"))'
       - name: Install CollegeScorecard
         run: Rscript -e 'devtools::install_github("Amherst-Statistics/CollegeScorecard")'
       - name: Render README
