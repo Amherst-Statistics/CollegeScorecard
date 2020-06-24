@@ -1,10 +1,11 @@
 
 ![R-CMD-check](https://github.com/Amherst-Statistics/CollegeScorecard/workflows/R-CMD-check/badge.svg)
-![render-readme](https://github.com/Amherst-Statistics/CollegeScorecard/workflows/render-readme/badge.svg)
+![Render
+README](https://github.com/Amherst-Statistics/CollegeScorecard/workflows/Render%20README/badge.svg)
 
 # CollegeScorecard
 
-Data from the DOE College Scorecard
+Data from the US Department of Education College Scorecard project
 
 ### Installation
 
@@ -46,37 +47,6 @@ list.files(system.file("extdata", package = "CollegeScorecard"))
 filename <- paste(system.file("extdata", package = "CollegeScorecard"), 
                   "MERGED2016_17_PP.csv.bz2", sep = "/")
 cs2016 <- readr::read_csv(filename)
-```
-
-    ## Parsed with column specification:
-    ## cols(
-    ##   .default = col_character(),
-    ##   UNITID = col_double(),
-    ##   MAIN = col_double(),
-    ##   NUMBRANCH = col_double(),
-    ##   PREDDEG = col_double(),
-    ##   HIGHDEG = col_double(),
-    ##   CONTROL = col_double(),
-    ##   ST_FIPS = col_double(),
-    ##   REGION = col_double(),
-    ##   CIP01CERT1 = col_double(),
-    ##   CIP01CERT2 = col_double(),
-    ##   CIP01ASSOC = col_double(),
-    ##   CIP01CERT4 = col_double(),
-    ##   CIP01BACHL = col_double(),
-    ##   CIP03CERT1 = col_double(),
-    ##   CIP03CERT2 = col_double(),
-    ##   CIP03ASSOC = col_double(),
-    ##   CIP03CERT4 = col_double(),
-    ##   CIP03BACHL = col_double(),
-    ##   CIP04CERT1 = col_double(),
-    ##   CIP04CERT2 = col_double()
-    ##   # ... with 181 more columns
-    ## )
-
-    ## See spec(...) for full column specifications.
-
-``` r
 summary(cs2016$MALE_WDRAW_ORIG_YR4_RT)
 ```
 
@@ -90,4 +60,4 @@ summary(readr::parse_number(cs2016$MALE_WDRAW_ORIG_YR4_RT))
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
     ##   0.032   0.222   0.354   0.357   0.496   0.814    3245
 
-Last updated Tue Jun 23 20:07:34 2020 using data from 2018-2019.
+Last updated Wed Jun 24 00:21:36 2020 using data from 2018-2019.
