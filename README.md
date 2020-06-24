@@ -60,4 +60,4 @@ summary(readr::parse_number(cs2016$MALE_WDRAW_ORIG_YR4_RT))
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
     ##   0.032   0.222   0.354   0.357   0.496   0.814    3245
 
-Last updated Wed Jun 24 00:21:36 2020 using data from 2018-2019.
+Last updated Wed Jun 24 15:46:59 2020 GMT using data from 2018-2019.
