@@ -7,7 +7,8 @@ output: github_document
 
 
 # CollegeScorecard
-Data from the DOE College Scorecard 
+
+Data from the US Department of Education College Scorecard project
 
 ### Installation
 
