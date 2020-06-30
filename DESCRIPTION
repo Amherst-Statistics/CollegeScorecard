@@ -1,10 +1,10 @@
 Package: CollegeScorecard
 Type: Package
 Title: Access Raw Datafiles from the College Scorecard
-Version: 0.2.0
-AuthorX: Nicholas Horton <nhorton@amherst.edu>
+Version: 0.2.1
+Author: Nicholas Horton <nhorton@amherst.edu>
 Maintainer: Nicholas Horton <nhorton@amherst.edu>
-Description: Access raw bzip'ed datafiles from the College Scorecard data repository (https://collegescorecard.ed.gov).
+Description: Access raw bzip'ed datafiles and crosswalk files from the College Scorecard data repository (https://collegescorecard.ed.gov).
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
