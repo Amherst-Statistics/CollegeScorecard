@@ -47,11 +47,11 @@ list.files(system.file("extdata", package = "CollegeScorecard"))
 filename <- paste(system.file("extdata", package = "CollegeScorecard"), 
                   "MERGED2016_17_PP.csv.bz2", sep = "/")
 cs2016 <- readr::read_csv(filename)
-summary(cs2016$MALE_WDRAW_ORIG_YR4_RT)
+head(cs2016$MALE_WDRAW_ORIG_YR4_RT)
 ```
 
-    ##    Length     Class      Mode 
-    ##      7238 character character
+    ## [1] "0.371237458194" "0.238558909445" "0.620253164557" "0.233564013841"
+    ## [5] "0.425641025641" "0.148696985181"
 
 ``` r
 summary(readr::parse_number(cs2016$MALE_WDRAW_ORIG_YR4_RT))
@@ -60,4 +60,4 @@ summary(readr::parse_number(cs2016$MALE_WDRAW_ORIG_YR4_RT))
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
     ##   0.032   0.222   0.354   0.357   0.496   0.814    3245
 
-Last updated Wed Jun 24 15:46:59 2020 GMT using data from 2018-2019.
+Last updated Mon Aug 10 15:25:57 2020 GMT using data from 2018-2019.
