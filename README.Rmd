@@ -8,7 +8,7 @@ output: github_document
 
 # CollegeScorecard
 
-Collated data from the US Department of Education College Scorecard project
+Collated data from the United States Department of Education (DOE) College Scorecard project
 
 ### Installation
 
