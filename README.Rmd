@@ -31,5 +31,5 @@ head(cs2016$MALE_WDRAW_ORIG_YR4_RT)
 summary(readr::parse_number(cs2016$MALE_WDRAW_ORIG_YR4_RT))
 ```
 
-Last updated `r date()` GMT using data from 2021-2022.
+Last updated `r date()` GMT incorporating data from 2021-2022.
 
