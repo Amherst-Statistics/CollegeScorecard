@@ -10,6 +10,7 @@ output: github_document
 
 Collated data from the United States Department of Education (DOE) College Scorecard project
 
+
 ### Installation
 
 `devtools::install_github("Amherst-Statistics/CollegeScorecard")`
