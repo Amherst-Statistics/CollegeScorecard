@@ -5,7 +5,6 @@ output: github_document
 ![R-CMD-check](https://github.com/Amherst-Statistics/CollegeScorecard/workflows/R-CMD-check/badge.svg)
 ![Render README](https://github.com/Amherst-Statistics/CollegeScorecard/workflows/Render%20README/badge.svg)
 
-
 # CollegeScorecard
 
 Collated data from the United States Department of Education (DOE) College Scorecard project
