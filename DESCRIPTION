@@ -1,7 +1,8 @@
 Package: CollegeScorecard
 Type: Package
 Title: Access Raw Datafiles from the US DOE College Scorecard
-Version: 0.4.1
+Version: 0.5
+Date: 2025-04-10
 Author: Nicholas Horton <nhorton@amherst.edu>
 Maintainer: Nicholas Horton <nhorton@amherst.edu>
 Description: Access raw bzip'ed datafiles and crosswalk files from the United States Department of Education (DOE) College Scorecard data repository (https://collegescorecard.ed.gov).

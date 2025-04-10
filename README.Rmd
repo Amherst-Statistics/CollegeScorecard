@@ -2,9 +2,6 @@
 output: github_document
 ---
 
-![R-CMD-check](https://github.com/Amherst-Statistics/CollegeScorecard/workflows/R-CMD-check/badge.svg)
-![Render README](https://github.com/Amherst-Statistics/CollegeScorecard/workflows/Render%20README/badge.svg)
-
 # CollegeScorecard
 
 Collated data from the United States Department of Education (DOE) College Scorecard project
@@ -28,6 +25,7 @@ filename <- paste(system.file("extdata", package = "CollegeScorecard"),
 cs2016 <- readr::read_csv(filename)
 head(cs2016$MALE_WDRAW_ORIG_YR4_RT)
 summary(readr::parse_number(cs2016$MALE_WDRAW_ORIG_YR4_RT))
+dplyr::glimpse(cs2016)
 ```
 
-Last updated `r date()` GMT incorporating data from 2021-2022.
+Last updated `r date()` GMT incorporating data from 2022-2023.
